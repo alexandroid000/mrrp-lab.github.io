@@ -10,8 +10,6 @@ group: home
 We are part of the [Department of Computer Science](https://cs.wwu.edu/).
 {: .welcomefont}
 
-![Lab logo](static/img/logo/jf_retreat_logo.svg){:style="max-width: 100%; height: auto;"}
-
 Research in the lab is focused on the science of designing and controlling
 minimalist robots in challenging environments. We are interested in building
 tools to incorporate embodied and collective intelligence into multi-robot and
