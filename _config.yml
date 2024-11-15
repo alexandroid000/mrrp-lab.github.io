@@ -1,7 +1,8 @@
 name: "MRRP Lab"
 description: "This is the official web page for the MRRP Lab at WWU."
 
-url: "https://mrrp.cs.wwu.com"
+url: "https://mrrp.cs.wwu.edu"
+baseurl: /
 
 paginate: 5
 plugins: [jekyll-paginate]

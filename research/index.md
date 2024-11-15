@@ -4,8 +4,6 @@ layout: default
 group: research
 ---
 
-<div class="row">
-
 # Our research
 
 Our research goal is to develop novel computational approaches to designing and
@@ -28,8 +26,3 @@ interfaces and specifications where humans are in the loop, so our work also inv
 human-computer/robot interaction (HCI/HRI) and programming language / API
 development.
 
-### Motion Planning for Bouncing Robots
-
-<div class="col-md-5 order-md-2 align-self-center ">
-<img class="img-fluid" src="/static/img/pub/2019_thompson.jpg" alt="tjump">
-</div>
