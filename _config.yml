@@ -26,19 +26,19 @@ exclude:
 
 collections:
         affiliates:
-                output: true
+                output: false
         members:
                 output: true
         publications:
                 output: true
         reviews:
-                output: true
+                output: false
         alumni:
                 output: true
         sep:
                 output: true
         visitors:
-                output: true
+                output: false
         undergrads:
                 output: true
         pets:

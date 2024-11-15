@@ -2,6 +2,7 @@
 title: MRRP Lab
 layout: home
 group: home
+permalink: /
 ---
 
 # Welcome to the MRRP Lab!

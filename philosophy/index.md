@@ -1,5 +1,5 @@
 ---
-title: Fraser Lab Compact, Philosophy, and Resources
+title: MRRP Lab Compact, Philosophy, and Resources
 layout: default
 group: philosophy
 ---

@@ -1,4 +1,4 @@
-## Fraser Lab Alumni
+## MRRP Lab Alumni
 {% assign sorted = site.members | sort: "enddate" | reverse %}
 {% for member in sorted %}
 
@@ -62,10 +62,6 @@ Subsequently: {{member.subsequent}} <br>
 <a href= "http://scholar.google.com/citations?user={{member.scholar}}"> {% if member.timeline_name %}{{ member.timeline_name }}{% else %}{{ member.name | split: " " | first }}{% endif %}'s Citations </a> <br>
 {% endif %}
 
-{% if member.twitter %}
-<a href="http://twitter.com"><img class="inline-block mem-icon" src="/static/img/logo/twitter_logo.svg"></a>
-<a href= "http://twitter.com/{{member.twitter}}"> @{{member.twitter}} </a> <br>
-{% endif %}
 
 {% if member.github %}
 <a href="http://github.com"><img class="inline-bloc mem-icon" src="/static/img/logo/github_logo.svg"></a>
@@ -113,7 +109,7 @@ Subsequently: {{undergraduate.subsequent}}<br>
 
 
 <br>
-## [High School Interns](http://sep.ucsf.edu/hs_programs/high-school-intern-program/)
+## High School Interns
 {% for student in sorted %}
 
 {% assign position = student.position | downcase %}
@@ -145,7 +141,7 @@ Subsequently: {{student.subsequent}}<br>
 
 
 <br>
-## Fraser Lab Visitors
+## Lab Visitors
 {% for visitor in sorted %}
 
 {% assign position = visitor.position | downcase %}
