@@ -10,3 +10,5 @@ build:
 	$(JEKYLL) build
 	cd /web/faculty/nillesa2/
 	cp -r _site/* /web/faculty/nillesa2/
+
+default: build

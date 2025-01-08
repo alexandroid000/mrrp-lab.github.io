@@ -1,53 +1,101 @@
-- title: Overview
-  id: "overview"
-  show: True
-  body: >
-
 - title: Lab Mission
   id: "mission"
-  show: False
+  show: True
   body: >
+         The lab mission is encompassed by the following themes.
+         
+         1. **Minimalism**: We want to minimize the resources required by robotic systems (materials, energy, computational time/space) to make robots more sustainable. This is also an interesting area of computer science theory / physics, with the possibility of improving computer-aided robotic system design.
+
+         2. **Mobility**: We are interested in agents that move through their environment (surveying, patrolling, monitoring) and possibly also interact with their environment to effect change (construction, taking samples).
+
+         3. **Resilience**: We are interested in building systems with embodied and/or
+            collective intelligence leading to more resilient systems in challenging
+            environments. Ideally, robots can leverage structure in their environment
+            (obstacles, currents, etc.) to perform their tasks.
+            - **Robots**: Agents that perceive, compute, and actuate in the real world (not just simulations).
+
+         4. For the **Planet / People**: Our projects are guided by values of sustainability and intentional design. We tackle basic research and open problems motivated by applications in environmental sciences.
+            We also focus on the role of the human in design and deployment of robotic
+            systems, and aim to make our technologies accessible, low-cost, and open-source
+            where possible.
+                 
+         **Keywords**: motion planning, robot design, computer-aided design, embodied intelligence, collective intelligence, embodied AI
 
 - title: Core Lab Values
   id: "values"
   show: False
   body: >
+        The MRRP Lab highly values scientific integrity. You are expected to
+        cite and acknowledge all sources for work that is not your own original output
+        (including AI-generated text, rewrites, and image generation).
 
-- title: Land Acknowledgment
-  id: "land_ack"
-  show: False
-  body: >
 
-- title: General Lab Expectations
+        We value informal and formal peer-review as the primary self-correcting
+        mechanism of science. Giving and recieving feedback are both important
+        skills to learn, and we expect you to practice these skills intentionally.
+
+
+        Our lab focuses on cultivating a growth mindset: everyone has different
+        backgrounds and opportunities, and everyone has great potential for growth. As
+        Bob Ross says, "anything that you are willing to practice, you can do." Failure
+        is expected in research (especially in robotics!) and is nothing more than a learning
+        opportunity.
+
+- title: Lab Membership and Access
   id: "expectations"
   show: False
   body: >
- 
+        Lab membership is granted after:
 
+        1. The completion of an Intro Project (~10 hours of work); and
+
+        2. Approval by Prof. Nilles
+
+
+        Lab membership includes:
+
+        - your name + photo + basic info on the lab website
+
+        - fob access to the robotics lab
+
+        - access to the lab discord server
+
+        - the expectation that you will attend lab meetings if allowed by your schedule
+ 
 - title: Communication
   id: "communication"
   show: False
   body: >
+        In case of an emergency in the lab, always prioritize calling 911 and
+        then call Prof. Nilles (personal contact info will be given to graduate
+        students and team leads as necessary).
 
-- title: COVID-19
-  id: "covid"
+        General lab-wide communication will happen on Discord and via email. You
+        are responsible for checking these channels frequently during working hours.
+
+        When in doubt, *over-communicate* rather than under-communicate! If
+        unsure about anything, just ask.
+
+- title: Health and Wellness
+  id: "health"
   show: False
   body: >
 
+      ##### Health and Personal Emergencies
 
-- title: Lab Notebooks and Data Deposition
+
+      ##### Work-Life Balance
+
+
+      ##### Resources
+
+- title: Data Management
   id: "data"
   show: False
   body: >
 
 - title: Reading and Following the Scientific Literature
   id: "literature"
-  show: False
-  body: >
-
-
-- title: Writing
-  id: "writing"
   show: False
   body: >
 
@@ -61,39 +109,7 @@
   show: False
   body: >
 
-    #### Why review papers?
-
-    #### Transparency in peer review
-
-
-    #### Peer review as training
-
-
-    #### Anonymity in peer review
-
-
-    #### Responding to reviews
-
-
-- title: Mentorship
-  id: "mentorship"
-  show: False
-  body: >
-
-
-- title: Career Development
-  id: career_dev
-  show: False
-  body: >
-
-    ##### Some General Advice for Postdocs
-
-    ##### Some General Advice for Graduate Students
-
-    ##### Some General Advice for Postbaccs/Technicians
-
-
-- title: Grant Writing and Fellowship Funding
+- title: Funding
   id: "grants"
   show: False
   body: >
@@ -102,48 +118,29 @@
   id: "conferences"
   show: False
   body: >
+        We do have funding to send students to academic robotics conferences or to travel for
+        collaborations with other labs. While travelling, you are representing WWU and
+        the lab, so remember to represent the lab to the best of your ability.
 
 - title: Presentations
   id: "presentations"
   show: False
   body: >
 
-    ##### Practicing
-
-    ##### Feedback
-
-    ##### Slide design
-
-    ##### Handling Q+A
-
-    ##### Special considerations for non-external talks
-
-- title: Feedback
-  id: "feedback"
-  show: False
-  body: >
-
-- title: Well-Being
-  id: "wellbeing"
-  show: False
-  body: >
-
-      ##### Health and Personal Emergencies
-
-
-      ##### Work-Life Balance
-
-
-      ##### Resources
-
-
 - title: Collaboration
   id: "collaboration"
   show: False
   body: >
 
-
 - title: Resources
   id: "resources"
   show: False
   body: >
+
+- title: Land Acknowledgment
+  id: "land_ack"
+  show: False
+  body: >
+        Our lab is located on the ancestral homelands of the Coast Salish Peoples, who have lived in the Salish Sea basin, throughout the San Juan Islands and the North Cascades watershed, from time immemorial.
+
+        We stand in solidarity with indigenous peoples, including the Lummi Nation and the Nooksack Tribe.
