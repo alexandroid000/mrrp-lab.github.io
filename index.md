@@ -5,7 +5,8 @@ group: home
 permalink: /
 ---
 
-# Welcome to the MRRP Lab!
+## Minimalist Resilient Robotics for the Planet
+
 {: .display-4}
 <br>
 We are part of the [Department of Computer Science](https://cs.wwu.edu/).
