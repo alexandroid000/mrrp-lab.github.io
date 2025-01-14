@@ -1,7 +1,7 @@
 # MRRP Lab
 ====================
 
-- **M**
-- **R**
-- **R**
-- **P**
+- **M**inimalist
+- **R**esilient
+- **R**obots for the
+- **P**lanet
