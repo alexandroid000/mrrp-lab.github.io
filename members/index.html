@@ -6,8 +6,8 @@ group: members
 
 <h1>MRRP Lab Members</h1>
 
-The MRRP lab welcomes people of any race, ethnicity, religion, national origin, gender identity, gender expression, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or disability status.<br>
-<h5>See our<a href="/philosophy/"> lab compact and philosophy</a>.</h5>
+The MRRP lab welcomes people of any race, ethnicity, religion, national origin, gender identity, gender expression, caregiver and family commitments, political affiliation, sexual orientation, and eligible age or disability status.
+See our<a href="/philosophy/"> lab compact and philosophy</a>.
 
 {% for member in site.members %}
 
@@ -59,65 +59,14 @@ The MRRP lab welcomes people of any race, ethnicity, religion, national origin, 
             </div>
         </div>
 {% endfor %}
-<hr>
-<h4>Affiliates</h4>
-{% for member in site.members %}
 
-{% unless member.enddate == empty %}
-{% continue %}
-{% endunless %}
-
-{% unless member.position contains "Affiliate" %}
-{% continue %}
-{% endunless %}
-
-        <hr>
-          <div id = "{{member.name}}" class="row" style="padding-top: 60px; margin-top: -60px;">
-            <div class="col-sm-4">
-                <img class="img-fluid" src="{{member.image}}" {% if member.altimage %} onmouseover="this.src='{{member.altimage}}';" onmouseout="this.src='{{member.image}}';" {% endif %} alt="{{member.name}}"; width="365"; height="365"><br>
-                <strong>{{member.name}}</strong> <br>
-                {% if member.pronouns %}
-                  <em>{{member.pronouns}}</em> <br>
-                {% endif %}
-                {{member.position | markdownify | remove: '<p>' | remove: '</p>' }} <br>
-                <em>{{member.email}}</em> <br>
-                {% if member.website %}
-                  <a style="overflow-wrap: break-word;" href= "{{member.website}}">{{member.website}}</a> <br>
-                {% endif %}
-                {% if member.orcid %}
-                  <a href="http://orcid.org"><img class="inline-block mem-icon" src="/static/img/logo/orcid_logo.svg"></a>
-                  <a href="http://orcid.org/{{member.orcid}}"> {{member.orcid}}</a> <br>
-                {% endif %}
-                {% if member.linkedin %}
-                  <a href="http://www.linkedin.com"><img class="inline-block mem-icon" src="/static/img/logo/linkedin_logo.svg"></a>
-                  <a href= "http://www.linkedin.com/in/{{member.linkedin}}"> {{member.linkedin}} </a> <br>
-                {% endif %}
-                {% if member.scholar %}
-                  <a href="http://scholar.google.com"><img class="inline-block mem-icon" src="/static/img/logo/gscholar_logo.svg"></a>
-                  <a href= "http://scholar.google.com/citations?user={{member.scholar}}"> Scholar Citations </a> <br>
-                {% endif %}
-                {% if member.twitter %}
-                  <a href="http://twitter.com"><img class="inline-block mem-icon" src="/static/img/logo/twitter_logo.svg"></a>
-                  <a href= "http://twitter.com/{{member.twitter}}"> @{{member.twitter}} </a> <br>
-                {% endif %}
-                {% if member.github %}
-                  <a href="http://github.com"><img class="inline-bloc mem-icon" src="/static/img/logo/github_logo.svg"></a>
-                  <a href= "http://github.com/{{member.github}}"> {{member.github}} </a> <br>
-                {% endif %}
-            </div>
-            <div class="col-sm-8">
-                {{member.description | markdownify}}
-            </div>
-        </div>
-{% endfor %}
-<hr>
-
+<!--
 <div>
 {% assign stretch = 60 %}
 {% assign yheight = 16 %}
 {% assign yspacing = 18 %}
 {% assign fontsize = 12 %}
-{% assign yearoffset = 2010 %}
+{% assign yearoffset = 2024 %}
 {% assign majortick = 0.05 %}
 {% assign minortick = 0.025 %}
 {% assign legendboxsize = 20 %}
@@ -216,4 +165,4 @@ The MRRP lab welcomes people of any race, ethnicity, religion, national origin, 
 <rect x="{{ xposition }}" y="{{ yposition }}" width="{{ legendboxsize }}" height="{{ legendboxsize }}" fill="purple" />
 <text x="{{ fontsize | times: 0.25 | plus: legendboxsize | plus: xposition }}" y="{{ fontsize | times: 0.75 | plus: legendboxsize | times: 0.5 | plus: yposition }}" font-family="sans-serif" font-size="{{ fontsize }}" stroke="black">Visitor</text>
 </svg>
-</div>
+</div>-->
